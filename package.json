@@ -14,6 +14,7 @@
     "syncran": "./syncran.sh",
     "check-syncran-config": "./check-syncran-config.sh",
     "check-ssh-setup": "./check-ssh-setup.sh",
+    "fix-ssh-setup": "./fix-ssh-setup.sh",
     "connect-syncran-remotes": "./connect-syncran-remotes.sh",
     "setup-syncran-initial-ssh": "./setup-syncran-initial-ssh.sh"
   }
