@@ -1,0 +1,20 @@
+{
+  "name": "@syncran/scripts",
+  "private": true,
+  "version": "0.1.19",
+  "description": "Syncran shell scripts and sample configuration files.",
+  "scripts": {
+    "test": "bash ./test-cli.sh"
+  },
+  "files": [
+    "*.sh",
+    "*.json"
+  ],
+  "bin": {
+    "syncran": "./syncran.sh",
+    "check-syncran-config": "./check-syncran-config.sh",
+    "check-ssh-setup": "./check-ssh-setup.sh",
+    "connect-syncran-remotes": "./connect-syncran-remotes.sh",
+    "setup-syncran-initial-ssh": "./setup-syncran-initial-ssh.sh"
+  }
+}

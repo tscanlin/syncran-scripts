@@ -1,0 +1,115 @@
+{
+  "comp_array": ["mac", "timnas3", "timnas2025", "casanas"],
+  "hosts": {
+    "mac": {
+      "root": "/Users/timscanlin",
+      "folders": {
+        "code": "Code/",
+        "docs": "Docs/",
+        "pics": "Pictures/",
+        "music": "Music/"
+      }
+    },
+    "timnas2025": {
+      "host": "tim@192.168.10.178",
+      "port": 34002,
+      "root": "/volume1",
+      "rsync_path": "/home/linuxbrew/.linuxbrew/bin/rsync",
+      "folders": {
+        "code": "data/tim/Code/",
+        "docs": "data/tim/Documents/",
+        "pics": "data/tim/Pictures/",
+        "music": "data/tim/Music/",
+        "archive": "data/tim/Archive/",
+        "games": "data/tim/Games/",
+        "isoz": "data/tim/Isoz/",
+        "tim": "data/tim/",
+        "bill": "data/bill/",
+        "lisa": "data/lisa/",
+        "chris": "data/chris/",
+        "data": "data/",
+        "data2": "data2/"
+      }
+    },
+    "timnas3": {
+      "host": "tim@192.168.10.191",
+      "port": 34004,
+      "root": "/volume1",
+      "folders": {
+        "code": "data/tim/Code/",
+        "docs": "data/tim/Documents/",
+        "pics": "data/tim/Pictures/",
+        "music": "data/tim/Music/",
+        "archive": "data/tim/Archive/",
+        "games": "data/tim/Games/",
+        "isoz": "data/tim/Isoz/",
+        "tim": "data/tim/",
+        "bill": "data/bill/",
+        "lisa": "data/lisa/",
+        "chris": "data/chris/",
+        "data": "data/",
+        "data2": "data2/"
+      }
+    },
+    "casanas": {
+      "host": "tim@casa-laf.ddns.net",
+      "port": 33333,
+      "root": "/volume1/data",
+      "folders": {
+        "code": "tim/Code/",
+        "docs": "tim/Documents/",
+        "pics": "tim/Pictures/",
+        "music": "tim/Music/"
+      }
+    }
+  },
+  "folder_groups": {
+    "mainGroup": ["code", "docs", "pics", "music"],
+    "famGroup": ["bill", "lisa", "chris"]
+  },
+  "ignores": [
+    "pagefile.sys",
+    "thumbs.db",
+    "Thumbs.db",
+    "$RECYCLE.BIN",
+    "#recycle",
+    "*recycle",
+    "System Volume Information",
+    "found.000",
+    ".DS_Store",
+    "*SynoResource",
+    "@eaDir",
+    "*.tmp",
+    ".git",
+    "node_modules",
+    "desktop.ini",
+    "AlbumArt_*",
+    "Unsorted Music",
+    "Torrent",
+    "GarageBand",
+    "Photos Library.photoslibrary",
+    "*.photoslibrary",
+    "*.backupbundle",
+    "*.sparsebundle",
+    ".cache",
+    ".next",
+    "out",
+    "build",
+    "dist",
+    "vendor",
+    "coverage",
+    "venv",
+    "*.localized",
+    "*.plist",
+    "Music Library.musiclibrary",
+    "*.musiclibrary",
+    "deerhillvineyards.com/public/",
+    "Audio Music Apps/",
+    "wasm-vips/",
+    "other-repos/",
+    "tmp/",
+    "opendream/",
+    "zhostinfo-*"
+  ],
+  "testHostIgnore": ["casanas"]
+}
